@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution28 {
     public int strStr(String haystack, String needle) {

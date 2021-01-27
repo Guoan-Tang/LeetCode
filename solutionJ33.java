@@ -1,6 +1,6 @@
-package LeetCode;
 
-public class solutionJianZhiOffer33 {
+
+public class solutionJ33 {
     public boolean verifyPostorder(int[] postorder) {
         return core(postorder, 0, postorder.length - 1);
     }

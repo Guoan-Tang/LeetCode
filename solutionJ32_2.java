@@ -1,10 +1,10 @@
-package LeetCode;
+
 
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class solutionJianZhiOffer32_2 {
+public class solutionJ32_2 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
             return new LinkedList<List<Integer>>();

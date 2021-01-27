@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution977 {
     public int[] sortedSquares(int[] A) {

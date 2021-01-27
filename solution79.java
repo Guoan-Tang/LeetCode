@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution79 {
     private boolean[][] hadVisited;

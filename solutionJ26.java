@@ -1,6 +1,4 @@
-package LeetCode;
-
-public class solutionJianZhiOffer26 {
+public class solutionJ26 {
     public class TreeNode {
         int val;
         TreeNode left;

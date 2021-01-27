@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution845 {
     public int longestMountain(int[] A) {

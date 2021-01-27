@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution5523 {
     public int minOperations(String[] logs) {

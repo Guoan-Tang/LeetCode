@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution1024 {
     public static int videoStitching(int[][] clips, int T) {

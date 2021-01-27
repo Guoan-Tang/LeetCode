@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution300 {
     public int lengthOfLIS(int[] nums) {

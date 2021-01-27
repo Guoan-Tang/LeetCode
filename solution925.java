@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution925 {
     public boolean isLongPressedName(String name, String typed) {

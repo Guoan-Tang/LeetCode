@@ -1,11 +1,11 @@
-package LeetCode;
+
 
 import java.util.Collections;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
-public class solutionJianZhiOffer32_3 {
+public class solutionJ32_3 {
     public List<List<Integer>> levelOrder(TreeNode root) {
         if (root == null) {
             return new LinkedList<List<Integer>>();
@@ -60,12 +60,5 @@ public class solutionJianZhiOffer32_3 {
             res.add(listTemp);
         }
         return res;
-    }
-
-    public static void main(String[] args) {
-        TreeNode a = new TreeNode(1);
-        a.left = new TreeNode(2);
-        a.right = new TreeNode(3);
-        System.out.print(new solutionJianZhiOffer32_3().levelOrder(a));
     }
 }

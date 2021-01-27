@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution21 {
     public class ListNode {

@@ -1,6 +1,6 @@
-package LeetCode;
 
-public class solutionJianZhiOffer13 {
+
+public class solutionJ13 {
     private boolean[][] hadVisited;
     private int result;
 

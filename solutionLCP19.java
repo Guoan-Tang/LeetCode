@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solutionLCP19 {
     public int minimumOperations(String leaves) {

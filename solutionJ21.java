@@ -1,6 +1,6 @@
-package LeetCode;
 
-public class solutionJianZhiOffer21 {
+
+public class solutionJ21 {
     public int[] exchange(int[] nums) {
         int left = 0, right = 0, temp;
         while (right < nums.length) {

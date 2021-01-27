@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution404 {
     private int res = 0;

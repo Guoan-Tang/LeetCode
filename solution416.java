@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution416 {
     public boolean canPartition(int[] nums) {

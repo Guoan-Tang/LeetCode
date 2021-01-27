@@ -1,6 +1,6 @@
-package LeetCode;
 
-public class solutionJianZhiOffer18 {
+
+public class solutionJ18 {
     public class ListNode {
         int val;
         ListNode next;

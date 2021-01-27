@@ -1,9 +1,9 @@
-package LeetCode;
+
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class solutionJianZhiOffer34 {
+public class solutionJ34 {
     class TreeNode {
         int val;
         TreeNode left;

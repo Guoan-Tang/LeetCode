@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution2 {
 
@@ -69,23 +69,12 @@ public class solution2 {
         return res;
     }
 
-    public static void main(String[] args) {
-        ListNode a = new ListNode(2), b = new ListNode(5), temp;
-        a.next = new ListNode(4);
-        temp = a.next;
-        temp.next = new ListNode(3);
-        b.next = new ListNode(6);
-        temp = b.next;
-        temp.next = new ListNode(4);
-        System.out.print(new solution2().addTwoNumbers(a, b));
-    }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
+    class ListNode {
+        int val;
+        ListNode next;
+    
+        ListNode(int x) {
+            val = x;
+        }
     }
 }

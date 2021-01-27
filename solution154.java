@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution154 {
     public int minArray(int[] numbers) {

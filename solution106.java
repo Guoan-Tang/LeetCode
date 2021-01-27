@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution106 {
     public TreeNode buildTree(int[] inorder, int[] postorder) {

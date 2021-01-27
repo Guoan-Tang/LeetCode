@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution685 {
     public int[] findRedundantDirectedConnection(int[][] edges) {

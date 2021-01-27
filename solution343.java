@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution343 {
     public int cuttingRope(int n) {

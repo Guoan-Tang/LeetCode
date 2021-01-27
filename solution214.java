@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution214 {
     public String shortestPalindrome(String s) {

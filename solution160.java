@@ -1,4 +1,4 @@
-package LeetCode;
+
 
 public class solution160 {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
