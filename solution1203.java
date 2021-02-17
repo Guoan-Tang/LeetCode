@@ -8,10 +8,12 @@ public class solution1203 {
             }
         }
 
+        @SuppressWarnings("unchecked")
         ArrayList<Integer>[] groupAdj = new ArrayList[m];
         for (int i = 0; i < m; i++) {
             groupAdj[i] = new ArrayList<>();
         }
+        @SuppressWarnings("unchecked")
         List<Integer>[] itemAdj = new ArrayList[n];
         for (int i = 0; i < n; i++) {
             itemAdj[i] = new ArrayList<>();

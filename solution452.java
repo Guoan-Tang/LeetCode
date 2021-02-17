@@ -27,13 +27,11 @@ public class solution452 {
                 }
             }
         });
-        int l = points[0][0], r = points[0][1], res = 1;
+        int r = points[0][1], res = 1;
         for (int[] tmp : points) {
             if (tmp[0] <= r) {
-                l = tmp[0];
                 r = Math.min(r, tmp[1]);
             } else {
-                l = tmp[0];
                 r = tmp[1];
                 res++;
             }
