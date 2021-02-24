@@ -1,10 +1,11 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
 class Solution {
    public:
-    vector<vector<int>> fourSum(vector<int>& nums, int target) {
-        vector<vector<int>> res;
+    vector< vector<int> > fourSum(vector<int>& nums, int target) {
+        vector< vector<int> > res;
         if (nums.size() < 4) {
             return res;
         }
