@@ -5,7 +5,7 @@ type MyQueue struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor() MyQueue {
+func Constructor_s232() MyQueue {
 	return MyQueue{}
 }
 

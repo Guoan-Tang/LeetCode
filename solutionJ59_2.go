@@ -5,7 +5,7 @@ type MaxQueue struct {
 	arr   []int
 }
 
-func Constructor() MaxQueue {
+func Constructor_sJ59_2() MaxQueue {
 	return MaxQueue{make([]int, 0), make([]int, 0)}
 }
 

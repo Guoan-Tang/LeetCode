@@ -4,7 +4,7 @@ type NumArray struct {
 	nums []int
 }
 
-func Constructor(nums []int) NumArray {
+func Constructor_s303(nums []int) NumArray {
 	res := NumArray{nums: nil}
 	if len(nums) < 1 {
 		return res
