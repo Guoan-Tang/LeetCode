@@ -1,5 +1,3 @@
-
-
 public class solution151 {
     public String reverseWords(String s) {
         if (s.length() < 1) {
