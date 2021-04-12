@@ -1,20 +1,38 @@
 
-
 public class solution215 {
     public int findKthLargest(int[] nums, int k) {
-        quickSort(nums, 0, nums.length - 1);
-        // k--;
-        // for (int i = 1; i < nums.length; i++) {
-        // if (nums[i] != nums[i - 1]) {
-        // k--;
-        // }
-        // if (k == 0) {
-        // return nums[i];
-        // }
-        // }
-        return nums[k - 1];
+        int temp;
+        for (int i = nums.length / 2; i >= 0; i--) {
+            heapify(nums, i, nums.length);
+        }
+        for (int i = 0; i < k; i++) {
+            temp = nums[0];
+            nums[0] = nums[nums.length - 1 - i];
+            nums[nums.length - 1 - i] = temp;
+            heapify(nums, 0, nums.length - i - 1);
+        }
+        return nums[0];
     }
 
+    // ++++++++++++++++++++++++ heap sort ++++++++++++++++++++++++
+    private void heapify(int[] nums, int startIndex, int length) {
+        int leftIndex = 2 * startIndex + 1, rightIndex = 2 * startIndex + 2, targetIndex = startIndex;
+        if (leftIndex < length && nums[leftIndex] > nums[targetIndex]) {
+            targetIndex = leftIndex;
+        }
+        if (rightIndex < length && nums[rightIndex] > nums[targetIndex]) {
+            targetIndex = rightIndex;
+        }
+        if (targetIndex != startIndex) {
+            leftIndex = nums[startIndex];
+            nums[startIndex] = nums[targetIndex];
+            nums[targetIndex] = leftIndex;
+            heapify(nums, targetIndex, length);
+        }
+    }
+
+    // ++++++++++++++++++++++++ select the kth latge item after quick sort
+    // ++++++++++++++++++++++++
     public void quickSort(int[] nums, int left, int right) {
         if (left < right) {
             int mid = partition(nums, left, right);
@@ -39,10 +57,5 @@ public class solution215 {
         nums[left] = nums[pivotPos];
         nums[pivotPos] = temp;
         return pivotPos;
-    }
-
-    public static void main(String[] args) {
-        System.out
-                .print(new solution215().findKthLargest(new int[] {3, 2, 3, 1, 2, 4, 5, 5, 6}, 4));
     }
 }

@@ -33,8 +33,4 @@ public class solution151 {
         }
         return res.reverse().toString();
     }
-
-    public static void main(String[] args) {
-        System.out.print(new solution151().reverseWords(" "));
-    }
 }
